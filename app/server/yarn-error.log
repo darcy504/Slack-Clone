@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/darcydraper/.nvm/versions/node/v14.7.0/bin/node /Users/darcydraper/.nvm/versions/node/v14.7.0/bin/yarn add --dev @babel/core @ babel/cli @babel/node @babel/preset-env nodemon
+
+PATH: 
+  /Users/darcydraper/.rvm/gems/ruby-2.6.5/bin:/Users/darcydraper/.rvm/gems/ruby-2.6.5@global/bin:/Users/darcydraper/.rvm/rubies/ruby-2.6.5/bin:/Users/darcydraper/.nvm/versions/node/v14.7.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/darcydraper/.rvm/gems/ruby-2.6.5/bin:/Users/darcydraper/.rvm/gems/ruby-2.6.5@global/bin:/Users/darcydraper/.rvm/rubies/ruby-2.6.5/bin:/Users/darcydraper/.nvm/versions/node/v14.7.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/darcydraper/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@: Request "https://registry.yarnpkg.com/@" returned a 405
+      at Request.params.callback [as _callback] (/Users/darcydraper/.nvm/versions/node/v14.7.0/lib/node_modules/yarn/lib/cli.js:66996:18)
+      at Request.self.callback (/Users/darcydraper/.nvm/versions/node/v14.7.0/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/darcydraper/.nvm/versions/node/v14.7.0/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/Users/darcydraper/.nvm/versions/node/v14.7.0/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1244:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
