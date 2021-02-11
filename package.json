@@ -1,0 +1,17 @@
+{
+  "name": "SlackClone",
+  "version": "yarn add --dev prettier pretty-quick husky",
+  "main": "index.js",
+  "author": "“darcy504” <“Darcyjdraper@gmail.com”>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
