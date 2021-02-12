@@ -45,6 +45,9 @@ module.exports = {
       password: process.env.DB_PASSWORD,
     },
   }),
+  //getting error 'could not connect to database template1: could not connect to server: No such file or directory
+        //Is the server running locally and accepting
+        //connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
 
 };
 
